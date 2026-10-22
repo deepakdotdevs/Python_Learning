@@ -13,8 +13,19 @@
 
 # Simple Interest : 
 
+# principal_amt = float(input("Enter Principal Amount : "))
+# rate = float(input("Enter Rate of Interest : "))
+# time_duration = float(input("Enter Time Duration : "))
+# simple_interest = (principal_amt*rate*time_duration)/100
+# print("Simple Interest is : ", simple_interest)
+
+# Compound Interest : 
+
 principal_amt = float(input("Enter Principal Amount : "))
 rate = float(input("Enter Rate of Interest : "))
 time_duration = float(input("Enter Time Duration : "))
-simple_interest = (principal_amt*rate*time_duration)/100
-print("Simple Interest is : ", simple_interest)
+# amt_1 = principal_amt*(1+(rate/100))**time_duration
+amt_2 = principal_amt*pow(1+(rate/100), time_duration)
+compound_Interest=amt_2-principal_amt
+print(round(compound_Interest, 2))
+
