@@ -16,3 +16,4 @@ l1 = [10, 2.5, 10,30,10] # eg of list
 print(l1, type(l1))
 s1 = {10, 2.5, 10,30,10} # eg of set
 print(s1, type(s1))
+
