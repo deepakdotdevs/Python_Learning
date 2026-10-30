@@ -8,12 +8,12 @@
 
 # Example No. 1:
 
-# age = int(input("Enter Your Age : "))
-# if age>=18:
-#     print("Congrats, You can Vote")
-# else:
-#     print("Sorry, You can't be Vote")
-# print("Rest of Program")
+age = int(input("Enter Your Age : "))
+if age>=18:
+    print("Congrats, You can Vote")
+else:
+    print("Sorry, You can't be Vote")
+print("Rest of Program")
 
 # Example No. 2:
 num = int(input("Enter the number : "))
@@ -21,3 +21,10 @@ if num % 2 == 0:
     print(f"{num} is Even No.")
 else:
     print(f"{num} is Odd No.")
+
+# Example No. 3:
+num = int(input("Enter the number : "))
+if num>=0:
+    print(f"{num} is +ve")
+else:
+    print(f"{num} is -ve")
