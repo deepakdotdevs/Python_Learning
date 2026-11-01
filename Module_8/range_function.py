@@ -58,5 +58,5 @@ profits = [9,11,6,10]
 # Profit of quarted 2 is 11
 # Profit of quarted 3 is 6
 # Profit of quarted 4 is 10
-for quarter in range(0, 4,1):
+for quarter in range(len(profits)):
     print(f"Profit of quarter {quarter+1} is {profits[quarter]}")
