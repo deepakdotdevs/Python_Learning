@@ -4,8 +4,8 @@
 
 # How to Create User-defined functions : 
 # SYNTAX :
-def functions_name(arg1, arg2, ... argN):
-    statement1
-    statement2
-    ...
-    statementN
+# def functions_name(arg1, arg2, ... argN):
+#     statement1
+#     statement2
+#     ...
+#     statementN
