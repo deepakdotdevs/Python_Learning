@@ -2,6 +2,7 @@ import random
 print("Welcome to the game of rolling a dice.")
 while True:
     choice = input("Press 'Enter' to roll the dice or 'q' to quit : ")
+    choice = choice.strip() # Take care of Extra space In the starting and the ending By mistake In user input
     if choice=='q':
         print("Thanks for playing the game, bye!")
         break
