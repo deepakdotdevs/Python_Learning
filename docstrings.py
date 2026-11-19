@@ -1,13 +1,13 @@
-# def func():
-#     '''
-#     This is a docstring
-#     We can write what the function does here
-#     :return: None
-#     '''
-#     return None
-# func()
-# # we can print docstring using help()
-# print(help(func))
+def func():
+    '''
+    This is a docstring
+    We can write what the function does here
+    :return: None
+    '''
+    return None
+func()
+# we can print docstring using help()
+print(help(func))
 
 # Program 2 : 
 def divide(num1, num2):
